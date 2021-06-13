@@ -43,4 +43,4 @@ const vanilla = (milkshake) => {
   return { items: milkshake.items }
 }
 
-export default connect(vanilla)(App);
+export default connect(mapStateToProps)(App);
